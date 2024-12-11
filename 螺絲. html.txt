@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五金螺絲扣件</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>五金螺絲扣件</h1>
+</header>
+
+<nav>
+    <a href="#about">關於我們</a>
+    <a href="#products">產品分類</a>
+    <a href="#technical">技術與應用</a>
+    <a href="#news">新聞與活動</a>
+    <a href="#contact">聯絡我們</a>
+</nav>
+
+<div class="container">
+
+    <!-- About Us Section -->
+    <div id="about" class="section">
+        <h2>關於我們</h2>
+        <p>我們是一家專注於生產高品質五金螺絲與扣件的專業企業，致力於提供穩定可靠的產品，廣泛應用於建築、機械和電子等行業。</p>
+        <p>我們擁有先進的生產設備和嚴格的品質管理體系，通過多項國際認證（如ISO）。</p>
+    </div>
+
+    <!-- Products Section -->
+    <div id="products" class="section">
+        <h2>產品分類</h2>
+        <ul>
+            <li><strong>螺絲類：</strong>六角螺絲、木螺絲、自攻螺絲等。</li>
+            <li><strong>螺帽類：</strong>六角螺帽、法蘭螺帽、鎖緊螺帽。</li>
+            <li><strong>墊片與扣件類：</strong>平墊片、彈簧墊圈、快速扣件。</li>
+            <li><strong>特殊訂製類：</strong>提供客製化設計。</li>
+        </ul>
+    </div>
+
+    <!-- Technical Section -->
+    <div id="technical" class="section">
+        <h2>技術與應用</h2>
+        <p>我們的五金螺絲與扣件廣泛應用於建築、電子、汽車等領域。提供的技術支持包括產品選型指導、安裝說明及客製化方案。</p>
+        <p><strong>常見應用案例：</strong></p>
+        <ul>
+            <li>汽車工業：高強度螺絲應用於車輛組裝。</li>
+            <li>建築工程：耐腐蝕螺絲適用於室外結構。</li>
+            <li>電子產品：小型精密螺絲用於設備內部固定。</li>
+        </ul>
+    </div>
+
+    <!-- News Section -->
+    <div id="news" class="section">
+        <h2>新聞與活動</h2>
+        <p>敬請關注我們的最新產品發布和促銷活動！</p>
+        <p>近期活動包括參加國際五金展覽以及推出新品優惠方案。</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="section">
+        <h2>聯絡我們</h2>
+        <p><strong>地址：</strong>台北市中山區某某路123號</p>
+        <p><strong>電話：</strong>+886-123-4567</p>
+        <p><strong>Email：</strong>info@hardware.com</p>
+        <p>您也可以通過以下表單提交您的需求：</p>
+        <form>
+            <label for="name">姓名：</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email：</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">訊息：</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">提交</button>
+        </form>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 五金螺絲扣件公司. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
