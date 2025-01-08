@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>減肥產品創新專案APP</title>
+    <style>
+        /* 基本樣式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #5dbb63;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        /* 首頁部分 */
+        .hero-section {
+            background-color: #e5f7e1;
+            text-align: center;
+            padding: 50px;
+            color: #5dbb63;
+        }
+
+        .hero-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            background-color: #e84545;
+            padding: 12px 25px;
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #f13c3c;
+        }
+
+        /* 進度條區 */
+        .progress-section {
+            text-align: center;
+            padding: 30px 10%;
+            background-color: #ffffff;
+        }
+
+        .progress-section h3 {
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            width: 80%;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            margin: 10px auto;
+        }
+
+        .progress-bar div {
+            height: 100%;
+            background-color: #5dbb63;
+            width: 70%; /* 假設完成進度70% */
+            border-radius: 10px;
+        }
+
+        /* 計劃區 */
+        .plan-section {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 10%;
+            background-color: #ffffff;
+        }
+
+        .plan-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .plan-card h3 {
+            margin-top: 15px;
+        }
+
+        .plan-card p {
+            color: #777;
+        }
+
+        /* 社群區 */
+        .community-section {
+            background-color: #5dbb63;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .community-section h3 {
+            margin-bottom: 20px;
+        }
+
+        .community-button {
+            background-color: #ffffff;
+            color: #5dbb63;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .community-button:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>減肥產品創新專案APP</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">首頁</a>
+        <a href="#">個性化計劃</a>
+        <a href="#">運動日誌</a>
+        <a href="#">社群互動</a>
+        <a href="#">設定</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h2>開始您的減肥之旅，今天就改變自己</h2>
+        <p>個性化減肥方案，幫助您輕鬆達成健康目標</p>
+        <a href="#" class="cta-button">立即開始</a>
+    </section>
+
+    <!-- 進度條區 -->
+    <section class="progress-section">
+        <h3>我的減肥進度</h3>
+        <p>目前已達成 70% 的目標，繼續努力！</p>
+        <div class="progress-bar">
+            <div></div>
+        </div>
+    </section>
+
+    <!-- 計劃區 -->
+    <section class="plan-section">
+        <div class="plan-card">
+            <h3>飲食計劃</h3>
+            <p>根據您的飲食習慣，提供每日健康食譜</p>
+            <a href="#" class="cta-button">了解更多</a>
+        </div>
+        <div class="plan-card">
+            <h3>運動計劃</h3>
+            <p>根據您的目標和能力，定制個性化的運動計劃</p>
+            <a href="#" class="cta-button">了解更多</a>
+        </div>
+        <div class="plan-card">
+            <h3>健康建議</h3>
+            <p>基於您的健康數據提供專業建議</p>
+            <a href="#" class="cta-button">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 社群區 -->
+    <section class="community-section">
+        <h3>加入我們的社群，與他人一起成長</h3>
+        <a href="#" class="community-button">加入社群</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 減肥產品創新專案 | <a href="#">隱私政策</a> | <a href="#">條款與條件</a></p>
+    </footer>
+
+</body>
+</html>
